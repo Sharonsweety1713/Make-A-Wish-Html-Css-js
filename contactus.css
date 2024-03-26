@@ -1,0 +1,35 @@
+h3{
+
+text-align: center;
+
+}
+body{
+background-color: rgb(198, 239, 253);
+}
+form{
+    text-align: center;
+    
+}
+input
+{
+    border: 2px;
+    border-radius: 7px;
+    height:50px;
+    width:650px;
+}
+textarea
+{
+    border: 2px;
+    border-radius: 7px;
+    height:50px;
+    width:650px; 
+}
+h2{
+    text-align: center;
+}
+legend
+{
+    font-size: xx-large;
+    color: blueviolet;
+    text-align: center;
+}

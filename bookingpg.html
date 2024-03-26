@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset='utf-8'>
+ <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+ <title>BOOKING DETAILS</title>
+ <meta name='viewport' content='width=device-width, initial-scale=1'>
+ <link rel="stylesheet" href="bookingpg.css">
+ </head>
+ <body style="background-image:url(https://cdn.shopify.com/s/files/1/0257/6718/2416/files/Balloons_background_1024x1024.jpg?v=1595051319);
+ background-repeat: no-repeat;
+ background-position: 50%;
+ background-size: cover;
+ background-attachment: fixed;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-style;color: white; ">
+ 
+ <fieldset>
+ 
+ <legend style="font-style: italic;">Making your Birthday Wishes come True....</legend>
+<h4 style="font-style: italic;font-size: xx-large;">Make A Wish</h4>
+<HR>
+ <h3 style="font-size: 35px" align="center"
+ <h2 style="font-family: cursive;"align="center"> CLIENT & EVENT DETAILS</h2><hr> 
+ <center>
+ <label i="fname"><i class="name"></i> Client Name<sup>*</sup>:</label>
+ <input type="text" id="fname" name="firstname" placeholder="Enter your Name" required>
+ <br><br>
+ <label i="email"><i class="email"></i> Email<sup>*</sup>:</label>
+ <input type="text" id="email" name="email" placeholder="name@example.com" required>
+ <br><br>
+ <label i="ph no"><i class="ph no"></i>Phone Number<sup>*</sup>:</label>
+ <input type="text" id="ph no" name="ph no" placeholder="Enter Your phone number"required>
+ <br>
+ <br>
+ <label i="expected guest count."><i class="expected guest count"> </i> Expected guest count:</label>
+ <input type="text" id="expected guest count" name="expected no. of guest">
+ <br><br>
+ <label i="Food/cuisine choice"><i class="Food/cuisine choice"></i>Type of food:</label>
+ <select>
+ <option>Cuisines offered:</option>
+ <option value="North indian">North Indian</option>
+ <option value="South Indian">South Indian</option>
+ <option value="Jain">jain</option>
+ <option value="pure vegetarian">Pure vegetarian</option>
+ <option value="Italian">Italian</option>
+ <option value="Indo-chineese">Indo-chineese</option>
+ </select>
+ 
+ <br><br>
+ <label i="Event date"><i class="event date"></i>Date of event<sup>*</sup>:</label>
+ <input type="date" id="event date" name="event date" placeholder="DD/MM/YY" required><div class="col-50" >
+ <br>
+ <label i="event"><i class="venue of the event" placeholder="venue of the event">Event venue<sup>*</sup>:</i></label>
+ <input type="text" id="event venue" name="event venue" placeholder="venue of the event"required>
+ <br><br>
+ <label i="estimated budget"><i class="estimated budget"></i>Estimated budget:</label>
+ <input type="text" id="Budget" name="expected budget"></div></center><hr>
+<center><input type="submit" value="Call back now" style="font-size:20px;
+font-style: italic;border: 2px;border-radius:7px;
+background-color: grey;color: cornsilk;height: 35px;"onclick="call();"></center>
+ <script>
+    function call()
+    {
+    
+    if(confirm("We'll Call you soon")==true)
+    {
+     window.open("thankyou.html")
+    }
+    else{
+        window.open("bookingpg.html");
+    }
+}
+    </script> 
+ </div>
+</body>
+</html>
